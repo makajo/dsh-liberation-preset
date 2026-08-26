@@ -51,6 +51,17 @@ git pull
 
 然后将 `liberation` 文件夹重新覆盖到上面的 `.dsh/.agent-presets/` 目录并重启 DSH Web。
 
+## 引用与致谢
+
+解放模式所嵌入的破限（jailbreak）系统提示词基于以下开源项目编写：
+
+- **项目**：[`0x5477/deepseek-v4-pro-unrestricted`](https://github.com/0x5477/deepseek-v4-pro-unrestricted) — DeepSeek v4 Pro 破甲提示词及测试包（jailbreak prompts and test suite for DeepSeek）
+- **作者**：[0x5477](https://github.com/0x5477)
+- **参考文件**：[`prompts/deepseek-unrestricted-v3.md`](https://github.com/0x5477/deepseek-v4-pro-unrestricted/blob/main/prompts/deepseek-unrestricted-v3.md)（[MODE: SANDBOX] 框架；本 preset 的 `persona` 提示词即以其为基础改写，并注入了 `{{model}}`/`{{cwd}}` 模板变量）
+- **许可证**：MIT
+
+在此对作者及该项目的贡献表示感谢。
+
 ## 注意事项
 
 - 该模式包含破限类系统提示词，仅用于个人研究与合法用途，请遵守你所在地区的法律法规以及模型服务商的条款。
